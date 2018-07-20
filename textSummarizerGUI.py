@@ -21,7 +21,7 @@ class Summarizer:
         self.root.maxsize(width=550, height=350)
         self.leftFrame = Frame(self.root)
         self.leftFrame.pack(side=LEFT)
-        self.entryBoxLabel = Label(self.leftFrame, text='Text Length: ', anchor=W)
+        self.entryBoxLabel = Label(self.leftFrame, text='Percentage Lower Bound:', anchor=W)
         self.entryBoxLabel.pack(side=TOP)
         self.entryBox = Entry(self.leftFrame, textvariable=self.lowerBound, width=15, justify=CENTER)
         self.entryBox.pack(side=TOP)
